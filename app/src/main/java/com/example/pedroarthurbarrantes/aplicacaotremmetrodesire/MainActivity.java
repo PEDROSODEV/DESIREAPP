@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         et_nome = (EditText) findViewById(R.id.et_name);
-        et_url = (EditText) findViewById(R.id.civ_image);
+        et_url = (EditText) findViewById(R.id.et_url);
 
         btnAdd = (Button) findViewById(R.id.btn_add);
 

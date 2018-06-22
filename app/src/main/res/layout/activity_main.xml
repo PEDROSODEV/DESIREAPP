@@ -10,11 +10,11 @@
         android:id="@+id/tv_name_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#000"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
-        android:text="Nome da Estação : " />
+        android:text="Nome da Estação: " />
 
     <EditText
         android:id="@+id/et_name"
@@ -36,7 +36,7 @@
         android:layout_below="@+id/tv_name_label"
         android:layout_marginTop="40dp"
         android:layout_marginLeft="20dp"
-        android:text="URL da Imagem: " />
+        android:text="Informações:  " />
 
     <EditText
         android:id="@+id/et_url"
@@ -47,7 +47,7 @@
         android:layout_marginRight="20dp"
         android:padding="10dp"
         android:layout_below="@id/et_name"
-        android:hint="URL"
+        android:hint="Info"
         android:layout_marginTop="20dp"/>
 
     <LinearLayout
